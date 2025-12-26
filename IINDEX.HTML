@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Us.A. Gidado Strategic Technologies</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #050505;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        /* Glowing Header Background */
+        .header {
+            text-align: center;
+            padding: 60px 20px;
+            background: radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, rgba(5, 5, 5, 1) 70%);
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #ffffff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+        .header h2 {
+            font-size: 2.2em;
+            margin: 5px 0;
+            color: #00d4ff;
+            text-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
+        }
+        /* Glowing Separation Line */
+        .glow-line {
+            height: 2px;
+            width: 100%;
+            background: linear-gradient(90deg, transparent, #00d4ff, transparent);
+            box-shadow: 0 0 10px #00d4ff;
+            margin: 40px 0;
+        }
+        .intro-text {
+            margin: 30px 0;
+            font-size: 1.1em;
+            color: #ddd;
+        }
+        .mission-box {
+            margin: 30px 0;
+            border-left: 3px solid #00d4ff;
+            padding-left: 20px;
+            font-style: italic;
+            color: #00d4ff;
+        }
+        .project-card {
+            background: #111;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 20px;
+            border: 1px solid #222;
+        }
+        .status-badge {
+            background: rgba(0, 212, 255, 0.1);
+            color: #00d4ff;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        .specs {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+        .specs li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .specs li::before {
+            content: "•";
+            color: #00d4ff;
+            position: absolute;
+            left: 0;
+        }
+        /* Glowing Contact Box */
+        .contact-box {
+            margin-top: 50px;
+            padding: 30px;
+            border: 1px solid #00d4ff;
+            border-radius: 12px;
+            background-color: rgba(0, 212, 255, 0.02);
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0 20px 0;
+            border-radius: 6px;
+            border: 1px solid #333;
+            background: #1a1a1a;
+            color: white;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            border-radius: 8px;
+            border: none;
+            background-color: #00d4ff;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            box-shadow: 0 0 20px #00d4ff;
+            transform: translateY(-2px);
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 20px;
+            color: #444;
+            font-size: 0.8em;
+            border-top: 1px solid #222;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Us.A. Gidado</h1>
+        <h2>Strategic Technologies</h2>
+        <p style="color: #ccc; margin-top: 20px;">Engineering the Infrastructure of Tomorrow.</p>
+    </div>
+
+    <div class="glow-line"></div>
+
+    <div class="intro-text">
+        Based in Kano, Nigeria, we are a <strong>Deep Tech laboratory</strong> focused on bridging the gap between Architectural design and High-Performance Hardware.
+    </div>
+
+    <div class="intro-text">
+        We specialize in developing 'fail-safe' biosecurity triage tools like the P3T Scanner, designed to operate at the speed of urban life. We believe that for technology to be strategic, it must be as durable and reliable as the architecture that houses it.
+    </div>
+
+    <div class="mission-box">
+        "Our mission is to harden urban infrastructure against biological threats by embedding intelligence directly into the architecture of our cities. We aren't just building a device; we are building a standard for strategic safety."
+    </div>
+
+    <h3 style="color: #00d4ff; text-transform: uppercase; letter-spacing: 2px; margin-top: 50px;">Current Projects</h3>
+    
+    <div class="project-card">
+        <span class="status-badge">Flagship: Active R&D</span>
+        <h2 style="margin: 15px 0; color: #fff;">P3T SCANNER</h2>
+        <p>A medical-grade biosecurity triage tool for urban gates. Utilizing Platinum RTD precision and AD5933 Bio-impedance analysis to secure high-traffic infrastructure.</p>
+        <ul class="specs">
+            <li>Precision Platinum (Pt100) sensing via MAX31865</li>
+            <li>Automated UV-C Self-Sanitization</li>
+            <li>Architectural Integration Ready</li>
+            <li>Edge Computing: AD5933 Bio-impedance analysis</li>
+        </ul>
+    </div>
+
+  <div class="contact-box">
+        <h3 style="color: #00d4ff; margin-top: 0;">Technical Engagement</h3>
+        <p style="font-size: 0.9em; margin-bottom: 25px;">Currently accepting inquiries for pilot programs, investment, and technical deep-dives.</p>
+
+        <form action="https://formspree.io/f/mlgergpk" method="POST">
+            <label style="font-size: 0.8em; color: #888;">Full Name / Organization</label>
+            <input type="text" name="name" placeholder="Enter name..." required>
+
+            <label style="font-size: 0.8em; color: #888;">Email Address</label>
+            <input type="email" name="email" placeholder="email@example.com" required>
+
+            <label style="font-size: 0.8em; color: #888;">Message</label>
+            <textarea name="message" rows="4" placeholder="How can we collaborate?" required></textarea>
+
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </div>
+
+    <footer>
+        © 2025 Us.A. Gidado Strategic Technologies | Kano, Nigeria
+    </footer>
+</div>
+
+</body>
+</html>
